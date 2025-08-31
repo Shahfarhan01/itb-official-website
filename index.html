@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="iTalentBuddy is an eSports event organization. We provide opportunities for gaming talent through tournaments, broadcasts, and influencer collaborations.">
+    <title>iTalentBuddy - Your Vision, Our Mission</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+<body class="site-bg text-white overflow-x-hidden">
+    <div class="grid-background"></div>
+
+    <header class="header sticky top-0 bg-black bg-opacity-90 backdrop-blur-sm z-50 transition-all duration-300 shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6 md:px-12">
+            <a href="#" class="logo flex items-center gap-2 transition-transform duration-300 hover:scale-105">
+                <img src="ITB PNG WHITE.png" alt="iTalentBuddy Logo" class="w-16 h-16 md:w-20 md:h-20 rounded-full">
+            </a>
+            
+            <nav class="desktop-nav hidden md:flex items-center gap-8 text-lg font-medium">
+                <a href="#home" class="text-gray-300 hover:text-white transition-colors duration-300 hover:underline hover:underline-offset-4">Home</a>
+                <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300 hover:underline hover:underline-offset-4">About</a>
+                <a href="#who-weve-worked-with" class="text-gray-300 hover:text-white transition-colors duration-300 hover:underline hover:underline-offset-4">Who We've Worked With</a>
+                <a href="#sponsors" class="text-gray-300 hover:text-white transition-colors duration-300 hover:underline hover:underline-offset-4">Sponsor Promotions</a>
+                <a href="#contact" class="bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+                    Contact Us
+                </a>
+            </nav>
+
+            <button id="mobile-menu-button" class="mobile-menu-button md:hidden text-gray-300 text-3xl hover:text-white focus:outline-none transition-transform duration-300 hover:rotate-90">
+                <i class="ri-menu-3-line"></i>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="fixed top-0 right-0 bottom-0 w-64 bg-gray-950 bg-opacity-95 backdrop-blur-sm z-[100] transform translate-x-full transition-transform duration-300 ease-in-out p-6 shadow-xl md:hidden">
+        <div class="flex justify-end mb-8">
+            <button id="close-mobile-menu-button" class="text-gray-300 text-3xl hover:text-white focus:outline-none transition-transform duration-300 hover:rotate-90">
+                <i class="ri-close-fill"></i>
+            </button>
+        </div>
+        <nav class="flex flex-col gap-6 text-xl font-medium">
+            <a href="#home" class="text-gray-300 hover:text-white transition-colors duration-300">Home</a>
+            <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
+            <a href="#who-weve-worked-with" class="text-gray-300 hover:text-white transition-colors duration-300">Who We've Worked With</a>
+            <a href="#sponsors" class="text-gray-300 hover:text-white transition-colors duration-300">Sponsor Promotions</a>
+            <a href="#contact" class="bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 text-center mt-4">
+                Contact Us
+            </a>
+        </nav>
+    </div>
+
+    <main class="relative z-10">
+        <section id="home" class="min-h-screen flex flex-col items-center justify-center text-center p-6 md:p-12">
+            <h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight tracking-tighter mb-6 bg-gradient-to-r from-orange-400 to-yellow-300 text-transparent bg-clip-text scroll-animate">
+                Your Vision, Our Mission
+            </h1>
+            <p class="text-lg sm:text-xl md:text-2xl font-light max-w-4xl text-gray-300 mb-10 scroll-animate">
+                Professional Indian eSports organization managing tournaments, broadcasts, marketing campaigns, and
+                influencer collaborations to uplift gaming talent across the country.
+            </p>
+
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4 mb-10 scroll-animate">
+                <div class="flex items-center gap-3 bg-gray-900 bg-opacity-50 border border-gray-700 rounded-full px-6 py-3">
+                    <i class="fas fa-eye text-orange-400 text-xl"></i>
+                    <span class="text-2xl font-bold text-white">12M+</span>
+                    <span class="text-sm uppercase text-gray-400 tracking-wide">Impressions</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 scroll-animate">
+                <a href="#contact" class="flex items-center justify-center gap-2 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white font-bold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+                    Contact Us <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+                <a href="https://discord.gg/4VCGFqs8t6" class="flex items-center justify-center gap-2 bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white font-bold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+                    <i class="ri-discord-fill mr-2"></i> Join Our Community
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="container mx-auto p-6 md:p-12 mb-20 scroll-animate">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-16 leading-tight">About Us<br>Empowering Gaming Talent</h2>
+            <div class="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-12 lg:gap-20">
+                <div class="w-full lg:w-1/2 space-y-6 text-lg text-gray-300 leading-relaxed scroll-animate">
+                    <p>
+                        iTalentBuddy is an eSports event organization led by experienced professionals. We aim to promote and empower talent in the Indian gaming community by hosting eSports events and offering opportunities to gamers.
+                    </p>
+                    <p>
+                        We achieve this by partnering with brands and collaborating to provide the best platforms for upcoming talents in the Indian gaming community.
+                    </p>
+                </div>
+                <div class="w-full lg:w-1/2 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <div class="p-8 rounded-xl bg-gray-900 border-2 border-orange-400 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate flex flex-col items-center">
+                        <i class="fas fa-medal text-6xl text-orange-400 mb-4"></i>
+                        <div class="text-5xl font-extrabold text-white mb-2">5+</div>
+                        <div class="text-xl font-medium text-gray-300">Years of Experience</div>
+                    </div>
+                    <div class="p-8 rounded-xl bg-gray-900 border-2 border-orange-400 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate flex flex-col items-center" style="transition-delay: 0.1s;">
+                        <i class="fas fa-trophy text-6xl text-orange-400 mb-4"></i>
+                        <div class="text-5xl font-extrabold text-white mb-2">100+</div>
+                        <div class="text-xl font-medium text-gray-300">Tournaments Hosted</div>
+                    </div>
+                    <div class="p-8 rounded-xl bg-gray-900 border-2 border-orange-400 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate flex flex-col items-center" style="transition-delay: 0.2s;">
+                        <i class="fas fa-users text-6xl text-orange-400 mb-4"></i>
+                        <div class="text-5xl font-extrabold text-white mb-2">5000+</div>
+                        <div class="text-xl font-medium text-gray-300">Players Supported</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="bg-gray-950 p-6 md:p-12 mb-20">
+            <div class="container mx-auto text-center scroll-animate">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-12">What Our Community Says</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-900 border border-gray-700 p-8 rounded-xl shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate">
+                        <p class="italic text-lg text-gray-300 mb-4">
+                            "iTalentBuddy's tournaments are top-notch. The organization is flawless, and they truly care about the players. It's a great platform to showcase your skills!"
+                        </p>
+                        <div class="font-semibold text-orange-400">- GamerX_Shafyy</div>
+                    </div>
+                    <div class="bg-gray-900 border border-gray-700 p-8 rounded-xl shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.1s;">
+                        <p class="italic text-lg text-gray-300 mb-4">
+                            "Their influencer collaborations are fantastic. The content is engaging, and the campaigns are creative. A great partner to work with."
+                        </p>
+                        <div class="font-semibold text-orange-400">- BrandPartner</div>
+                    </div>
+                    <div class="bg-gray-900 border border-gray-700 p-8 rounded-xl shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.2s;">
+                        <p class="italic text-lg text-gray-300 mb-4">
+                            "I've participated in several events, and the experience is always smooth. The production quality of their broadcasts is incredible. Highly recommended!"
+                        </p>
+                        <div class="font-semibold text-orange-400">- EsportFan_Dazy</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="promotions" class="container mx-auto p-6 md:p-12 mb-20">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-12">Promotions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="flex flex-col items-center text-center p-6 rounded-xl bg-gray-900 border border-gray-700 transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate">
+                    <i class="fas fa-clipboard-list text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Registration Drives</h3>
+                    <p class="text-gray-300">Our team helps players register and promotes the tournament to ensure a 100% fill-rate.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 rounded-xl bg-gray-900 border border-gray-700 transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.1s;">
+                    <i class="fas fa-microphone text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Broadcast Promotions</h3>
+                    <p class="text-gray-300">Our broadcasts are heavily promoted on our social media, through influencers, and other networks.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 rounded-xl bg-gray-900 border border-gray-700 transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.2s;">
+                    <i class="fas fa-bullhorn text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Social Media Promotions</h3>
+                    <p class="text-gray-300">We have social media channels on multiple platforms with a highly engaged user base.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 rounded-xl bg-gray-900 border border-gray-700 transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.3s;">
+                    <i class="fas fa-user-plus text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Influencer Marketing</h3>
+                    <p class="text-gray-300">We have a wide network of influencers in India across all games and languages.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sponsors" class="container mx-auto p-6 md:p-12 mb-20">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-12">Sponsor Promotions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center text-center p-6 rounded-xl bg-gray-900 border border-gray-700 transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate">
+                    <i class="fas fa-chart-pie text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Sponsored Segments</h3>
+                    <p class="text-gray-300">We create sponsored segments that do justice to the quality of your product and entertain viewers at the same time.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 rounded-xl bg-gray-900 border border-gray-700 transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.1s;">
+                    <i class="fas fa-bullhorn text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Shoutouts</h3>
+                    <p class="text-gray-300">All tournament broadcasts receive shoutouts from our community and our influencer network.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 rounded-xl bg-gray-900 border border-gray-700 transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.2s;">
+                    <i class="fas fa-cogs text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Brand Integration</h3>
+                    <p class="text-gray-300">We promote our sponsors by integrating their assets in social media posts, community posts, and broadcast elements.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="who-weve-worked-with" class="bg-gray-950 p-6 md:p-12 mb-20">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-12">Who We've Worked With</h2>
+                <div class="relative overflow-hidden">
+                    <div class="brands-carousel flex items-center gap-10 lg:gap-20 py-4 will-change-transform">
+                        <img src="b1.jpg" alt="Brand Logo 1" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b2.png" alt="Brand Logo 2" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b3.jpg" alt="Brand Logo 3" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b4.jpeg" alt="Brand Logo 4" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b5.jpg" alt="Brand Logo 5" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b6.png" alt="Brand Logo 6" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b7.png" alt="Brand Logo 7" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b8.png" alt="Brand Logo 8" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b9.jpg" alt="Brand Logo 9" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b10.png" alt="Brand Logo 10" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b1.jpg" alt="Brand Logo 1" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b2.png" alt="Brand Logo 2" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b3.jpg" alt="Brand Logo 3" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b4.jpeg" alt="Brand Logo 4" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b5.jpg" alt="Brand Logo 5" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b6.png" alt="Brand Logo 6" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b7.png" alt="Brand Logo 7" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b8.png" alt="Brand Logo 8" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b9.jpg" alt="Brand Logo 9" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                        <img src="b10.png" alt="Brand Logo 10" class="h-16 w-auto flex-shrink-0 grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100">
+                    </div>
+                </div>
+            </section>
+
+            <section id="events" class="container mx-auto p-6 md:p-12 mb-20">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-12">Events</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-900 border border-gray-700 rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate">
+                    <img src="event.png" alt="Hunt Down Carry Event Poster" class="w-full h-auto object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Hunt Down Carry</h3>
+                        <p class="text-gray-300 text-sm">A thrilling tournament for players to hunt down the best players and rise to the top of the ranks.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-900 border border-gray-700 rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.1s;">
+                    <img src="event2.png" alt="Battle Royale Event Poster" class="w-full h-auto object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">CRX Charity Scrims</h3>
+                        <p class="text-gray-300 text-sm">Experience the ultimate survival challenge in our epic battle royale tournament.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-900 border border-gray-700 rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gray-800 scroll-animate" style="transition-delay: 0.2s;">
+                    <img src="event5.png" alt="The Final Round Event Poster" class="w-full h-auto object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Exclusive Influencers Event </h3>
+                        <p class="text-gray-300 text-sm">Compete in the last stand to claim victory and a prize pool.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="container mx-auto p-6 md:p-12 mb-20 scroll-animate">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <div class="faq-item-header" onclick="toggleFaq(this)">
+                        <span class="faq-item-title text-orange-400 font-bold">What is iTalentBuddy?</span>
+                        <svg class="faq-item-icon w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p>iTalentBuddy is a professional Indian eSports organization focused on uplifting gaming talent through various events, broadcasts, and marketing collaborations.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <div class="faq-item-header" onclick="toggleFaq(this)">
+                        <span class="faq-item-title text-orange-400 font-bold">How can I participate in your events?</span>
+                        <svg class="faq-item-icon w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p>You can follow our social media channels and Discord server to get the latest updates on upcoming tournaments and events. Registration links are provided well in advance.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <div class="faq-item-header" onclick="toggleFaq(this)">
+                        <span class="faq-item-title text-orange-400 font-bold">What kind of games do you host events for?</span>
+                        <svg class="faq-item-icon w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p>We host events for a wide range of popular eSports titles across different genres. Our events are tailored to the interests of the Indian gaming community.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <div class="faq-item-header" onclick="toggleFaq(this)">
+                        <span class="faq-item-title text-orange-400 font-bold">How can my brand partner with iTalentBuddy?</span>
+                        <svg class="faq-item-icon w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p>For brand partnership inquiries, you can reach out to us directly via our email provided in the contact section. We offer various collaboration opportunities including promotions and brand integration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container mx-auto p-6 md:p-12 mb-20 scroll-animate">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-8">Contact Us</h2>
+                <p class="text-lg md:text-xl text-gray-300 mb-6">
+                    Connect with us directly at:
+                </p>
+                <div class="flex items-center justify-center gap-4">
+                    <i class="ri-mail-line text-orange-400 text-2xl md:text-3xl"></i>
+                    <a href="mailto:info@italentbuddy.com" class="text-lg md:text-xl font-medium text-gray-300 hover:text-white hover:underline transition-colors duration-300">
+                        info@italentbuddy.com
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+<footer class="bg-gray-950 py-8 text-center text-gray-400 border-t border-gray-800">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <p>&copy; 2025 <span class="text-white font-bold">iTalentBuddy</span>. All rights reserved.</p>
+            <p>Design & Developed By TEAM SFG</p>
+            
+            <div class="flex gap-4 text-xl">
+                <a href="https://discord.gg/4VCGFqs8t6" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-125">
+                    <i class="ri-discord-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/italentbuddy" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-125">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/italentbuddy-event-management-opc-private-limited/" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-125">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:info@italentbuddy.com" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-125">
+                    <i class="ri-mail-fill"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+      
+</body>
+</html>
